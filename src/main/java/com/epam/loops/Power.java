@@ -2,8 +2,11 @@ package com.epam.loops;
 
 public class Power {
 
-    public void printPower(int numberToPrint, int power) {
-
+      public void printPower(int numberToPrint, int power) {
+        int s = 1;
+        for (int i = 0; i < power; i++) {
+            s = s * numberToPrint;
+        }
     }
 
     public static void main(String[] args) {
