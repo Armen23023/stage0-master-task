@@ -10,4 +10,8 @@ public class Dog extends  Animal{
         numberOfPaws = 4;
         hasFur = true;
     }
+    @Override
+    public String getDescription() {
+        return "This animal is mostly brown. It has 4 paws and a fur.";
+    }
 }
