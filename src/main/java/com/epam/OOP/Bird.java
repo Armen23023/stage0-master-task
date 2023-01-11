@@ -1,6 +1,6 @@
 package com.epam.OOP;
 
-public class Bird {
+public class Bird extends Animal {
     private String color;
     private int numberOfPaws;
     private boolean hasFur;
